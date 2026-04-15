@@ -1,6 +1,8 @@
 ## heartbeat
 
-*`heartbeat` is a proof-of-concept machine learning project classifying heart arrhythmias based on wearable ([2-lead](https://en.wikipedia.org/wiki/Electrocardiography#Electrodes_and_leads)) ECG data.*
+`heartbeat` is a proof-of-concept machine learning project classifying heart arrhythmias based on wearable 
+([2-lead](https://en.wikipedia.org/wiki/Electrocardiography#Electrodes_and_leads)) ECG data.
+
 
 > [!note]
 > This repo is a full, from-scratch rewrite of the [heart-beat-decoder](https://github.com/dcgale/heart-beat-decoder)
