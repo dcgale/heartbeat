@@ -11,7 +11,7 @@ wheels/
 .env
 .envrc
 
-# models
+# model binaries
 *.pkl
 *.pt
 
