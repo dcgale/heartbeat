@@ -14,7 +14,7 @@ dependencies = [
 ]
 
 [dependency-groups]
-dev = []
+dev = ["jupyter", "nbstripout"]
 test = []
 
 [build-system]
