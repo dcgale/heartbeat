@@ -5,6 +5,10 @@
 
 TODO: training data and research sources, AI use disclosure, ...
 
+
+
+---
+
 > [!note]
 > This repo is a full, from-scratch rewrite of the [heart-beat-decoder](https://github.com/dcgale/heart-beat-decoder)
 > repository. The original was a group project realised at the end of a three-month bootcamp with Le Wagon.
