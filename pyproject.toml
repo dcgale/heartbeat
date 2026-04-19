@@ -15,10 +15,29 @@ dependencies = [
 
 # keep dev deps separate from runtime deps
 [dependency-groups]
-dev = ["jupyter", "nbstripout"]
+dev = [
+    "django-stubs>=6.0.3",
+    "jupyter",
+    "mypy>=1.20.1",
+    "nbstripout",
+]
 test = []
 
 # required for editable install of package folder
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+# register heartbeat as installable package
+[tool.hatch.build.targets.wheel]
+packages = ["heartbeat"]
+
+[tool.mypy]
+plugins = ["mypy_django_plugin.main"]
+
+[[tool.mypy.overrides]]
+module = "django.*"
+ignore_missing_imports = true
+
+[tool.django-stubs]
+django_settings_module = "heartbeat.config.settings"
