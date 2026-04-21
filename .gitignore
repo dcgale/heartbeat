@@ -20,3 +20,4 @@ wheels/
 # project-specific
 data/
 models/
+tests/test_debug.py
