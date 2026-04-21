@@ -1,5 +1,6 @@
-# test debugging file for running print statements etc outside of notebooks
+# general purpose debugging/tests
 
 import os
+import pytest
 
 print(os.environ.get("DATA_DIR"))
