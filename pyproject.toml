@@ -21,7 +21,9 @@ dev = [
     "mypy>=1.20.1",
     "nbstripout",
 ]
-test = []
+test = [
+    "pytest>=9.0.3",
+]
 
 # required for editable install of package folder; uv uses as backend
 [build-system]
