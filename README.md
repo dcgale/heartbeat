@@ -11,11 +11,13 @@
 > repository. The original was a group project completed at the end of a three-month bootcamp with Le Wagon.
 >
 > Why a rewrite?
-> - Two years later, I want to review and look back on a formative Python project.
-> - The original was a two-week sprint, so not a lot of time to document my process & explore best practices.
-> - I would like to use PyTorch and Django.
-> - I was always personally invested in the project because it addressed two areas of interest for me: time-series (audio-adjacent) data and healthcare technology (thank you [Caitlin](https://github.com/caitlinmac)!).
-> - I initially worked on a fork of the original, but cleaning the code wasn't enough to justify the architecture I had in mind. A full rewrite just made more sense.
+> - Roughly two years later, I want to methodically review and look back on a formative project for me.
+> - The original was a two-week sprint: not a lot of time to understand the big picture of what is going on. Coming back to the project gives me a renewed perspective and appreciation for the work we did.
+> - I initially started to work on a fork of the original, but cleaning the code wasn't enough to justify the scope of the work that I felt needed to be done. A full rewrite just made more sense.
+> - I would like to use PyTorch instead of scikit-learn, as my audio work uses it almost exclusively.
+> - In the original, our Streamlit frontend was broken due to time crunches and group dynamics. I am using Dash instead for this project, as I like being able to inject CSS for added flair.
+> - I was always personally invested in the project because it addressed two areas of interest for me: time-series data and healthcare technology (thank you [Caitlin](https://github.com/caitlinmac)!).
+
 
 TODO: _architecture/overview, setup, usage_ ...
 
