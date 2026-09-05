@@ -37,4 +37,4 @@ These four databases have been feature-extracted into 2-lead ECG format (availab
 - Sakib, S., Fouda, M. M., Fadlullah, Z. M., Nasser, N., & Alasmary, W. (2021). A proof-of-concept of ultra-edge smart IoT sensor: A continuous and lightweight arrhythmia monitoring approach. IEEE Access, 9, 26093-26106.
 
 ### AI Usage Disclaimer
-AI assistance (Claude Sonnet 4.6) was used for architectural planning, code review of the legacy codebase, development guidance, and as a learning resource when needed. All code was written by the author.
+AI assistance (Claude Sonnet 4.6/5) was used for architectural planning, code review of the legacy codebase, and as a learning tutor when needed. All code was written by the author.
