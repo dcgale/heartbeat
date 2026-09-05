@@ -18,8 +18,13 @@
 > - In the original, our Streamlit frontend was broken due to time crunches and group dynamics. I am using Dash instead for this project, as I like being able to inject CSS for added flair.
 > - I was always personally invested in the project because it addressed two areas of interest for me: time-series data and healthcare technology (thank you [Caitlin](https://github.com/caitlinmac)!).
 
+---
+<br>
+<br>
+TODO: *architecture/overview, setup, usage* ...
+<br>
+<br>
 
-TODO: _architecture/overview, setup, usage_ ...
 
 ### Data Sources
 This project uses four databases originally from [PhysioNet](https://physionet.org/):
