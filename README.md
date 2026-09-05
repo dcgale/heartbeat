@@ -20,11 +20,8 @@
 
 ---
 <br>
+<!-- TODO: *architecture/overview, setup, usage* ... -->
 <br>
-TODO: *architecture/overview, setup, usage* ...
-<br>
-<br>
-
 
 ### Data Sources
 This project uses four databases originally from [PhysioNet](https://physionet.org/):
