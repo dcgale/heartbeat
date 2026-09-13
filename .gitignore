@@ -21,3 +21,4 @@ wheels/
 data/
 models/
 tests/test_debug.py
+notebooks/output/
